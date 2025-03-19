@@ -1,0 +1,73 @@
+/* تنظیمات عمومی */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* پس‌زمینه و رنگ متن */
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* کانتینر اصلی */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* هدر */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+header p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* استایل برای لینک‌ها */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.link {
+    display: inline-block;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #45a049;
+}
+
+.link:active {
+    background-color: #388e3c;
+}
